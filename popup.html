@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Pomodoro Timer</title>
+  <link rel="stylesheet" type="text/css" href="popup.css">
+</head>
+<body>
+
+  <div id="timer">25:00</div>
+  <button id="start">Start</button>
+  <button id="reset" >Reset</button>
+  <button id="break"   style="display: none;">Break</button>
+  <button id="settings">Settings</button>
+  <form id="settingForm" style="display: none;">
+    <label for="email">Enter the time you want to work:</label>
+    <input type="number" id="pomtime" name="pomtime" min="0" max="1000000000000s" value ="25">
+    <br>
+    <label for="email">Enter how long you want your break:</label>
+    <input type="number" id="breaktime" name="breaktime" min="0" max="30000000" value = "5">
+    <br>
+    <label for="email">Enter the website you would like to go on your break:</label>
+    <input type="url" id="breakpage" name="breakpage" value = "https://www.youtube.com/">
+    <input type="submit" value="Submit">
+  </form>
+  <script src="popup.js"></script>
+  
+</body>
+</html>
