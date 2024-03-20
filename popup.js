@@ -2,8 +2,8 @@ let timer;
 let time = 10; // 25 minutes in seconds
 var round = 0;
 let breakUrl = 'https://www.youtube.com'
-let pomtime = 25;
-let breaktime = 5;
+let pomtime = 1500;
+let breaktime = 300;
 let workWindowId = null;
 
 function updateTimer() {
