@@ -1,25 +1,18 @@
 {
-    "manifest_version": 2,
-    "name": "Pomodoro Timer",
-    "version": "1.0",
-    "description": "A Pomodoro Technique timer extension",
-    "permissions": ["storage"],
-    "browser_action": {
-      "default_icon": "icon/time_timer_pomodoro_productivity_app_tomato_counter-512.webp",
-      "default_popup": "popup.html"
-    },
-    "icons": {
-      "48": "icon/time_timer_pomodoro_productivity_app_tomato_counter-512.webp"
-    },
-    "background": {
-      "scripts": ["popup.js"],
-      "persistent": false
-    },
-    "content_scripts": [
-      {
-        "matches": ["<all_urls>"],
-        "js": ["popup.js"]
-      }
-    ]
+  "manifest_version": 2,
+  "name": "Pomodoro Timer",
+  "version": "1.0",
+  "description": "A Pomodoro Technique timer extension",
+  "permissions": ["storage"],
+  "browser_action": {
+    "default_icon": "images/Lightning_Mcqueen.png",
+    "default_popup": "popup.html"
+  },
+  "icons": {
+    "48": "images/Lightning_Mcqueen.png"
+  },
+  "background": {
+    "scripts": ["background.js"],
+    "persistent": false
   }
-  
+}

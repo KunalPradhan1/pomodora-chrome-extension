@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+
 <html>
 <head>
   <title>Pomodoro Timer</title>
@@ -7,10 +7,10 @@
 <body>
 
   <div id="timer">25:00</div>
-  <button id="start">Start</button>
-  <button id="reset" >Reset</button>
-  <button id="break"   style="display: none;">Break</button>
-  <button id="settings">Settings</button>
+  <button class = "button" id="start">Start</button>
+  <button class = "button" id="reset" >Reset</button>
+  <button class = "button" id="break"   style="display: none;">Break</button>
+  <button class = "buttonSettings" id="settings">Settings</button>
   <form id="settingForm" style="display: none;">
     <label for="email">Enter the time you want to work:</label>
     <input type="number" id="pomtime" name="pomtime" min="0" max="1000000000000s" value ="25">
@@ -22,6 +22,7 @@
     <input type="url" id="breakpage" name="breakpage" value = "https://www.youtube.com/">
     <input type="submit" value="Submit">
   </form>
+  <script src="background.js"></script>
   <script src="popup.js"></script>
   
 </body>

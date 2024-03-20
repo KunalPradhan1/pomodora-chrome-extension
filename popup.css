@@ -1,14 +1,44 @@
 body {
     width: 200px;
+    height:200px;
     text-align: center;
   }
   
   #timer {
-    font-size: 24px;
+    font-size: 32px;
     margin-bottom: 10px;
   }
   
-  button {
-    margin: 5px;
-    float: left;
+  .button {
+    border: none;
+    color: black;
+    padding: 10px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    border-radius: 20px;
+  }
+  .button:hover{
+    background-color: #e7e7e7;
+
+  }
+  .buttonSettings{
+    border: none;
+    color: black;
+    padding: 10px 50px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    border-radius: 20px;
+  }
+  .buttonSettings:hover{
+    background-color: #e7e7e7;
   }
